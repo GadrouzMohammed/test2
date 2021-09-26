@@ -1,0 +1,56 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}  
+.contenaire{
+     max-width: 700px;
+     margin: 40px auto;
+}
+header{
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end; /* photo et en  bas */
+
+}
+
+header .name{
+    width: 65%;
+}
+header .image{
+    padding-left: 55px;
+    width: 35%;
+ 
+}
+ 
+header .image img {
+    max-width: 165px;
+}
+section{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+section article{
+    border-right: 1px solid;
+    padding-right:  15px;
+    width: 65%;
+}
+
+section article img{
+    max-width: 100;
+
+}
+section aside {
+    width: 36%;
+    padding-left: 15px;
+    background-color: bisque; 
+}
+ header h1 {
+     font-size: 52px;
+     letter-spacing: -6px;
+
+
+}
